@@ -73,7 +73,7 @@ const getPropertyDetails = async (req, res) => {
         res.status(200).json(propertyExists)
     } else {
         res.status(404).json({message: 'Property not found'})
-    }
+    } 
 }
 
 const updateProperty = (req, res) => { }
