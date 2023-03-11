@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
     res.send({ message: 'hello world!' });
 })
 
-app.use('/api/v1/user', userRouter);
+app.use('/api/v1/users', userRouter);
 app.use('/api/v1/properties', propertyRouter);
 
 
